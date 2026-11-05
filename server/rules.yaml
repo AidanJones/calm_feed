@@ -1,0 +1,11 @@
+# Your algorithm. Only settings the MVP actually obeys are listed here.
+version: 1
+budget:
+  feed_minutes: 30      # stricter applies now, looser applies from the next reset
+  reset_hour: 4         # local time
+feed:
+  window_hours: 36
+  digest_max_items: 40
+  max_per_source: 2
+  hide_shorts: true
+  exclude_keywords: [reaction, drama, prank]

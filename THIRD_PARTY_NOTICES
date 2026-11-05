@@ -1,0 +1,12 @@
+Calm Feed vendors no third-party code. It installs these packages at runtime:
+
+FastAPI         MIT
+Uvicorn         BSD-3-Clause
+HTTPX           BSD-3-Clause
+itsdangerous    BSD-3-Clause
+PyYAML          MIT
+python-dotenv   BSD-3-Clause
+tzdata          Apache-2.0
+
+Videos play through the official YouTube IFrame Player API, loaded from
+youtube.com and subject to YouTube's terms.
